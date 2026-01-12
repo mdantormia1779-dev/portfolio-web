@@ -295,3 +295,159 @@ footer .footer-container{
     border-radius: 5px;
     color: #757575;
 }
+
+/* responsive design */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+/* header section */
+header {
+    background-color: #f7d9c4;
+    padding: 50px;
+    background-image: none;
+  }
+
+#banner {
+    flex-direction: column;
+    margin: 0;
+}
+
+.banner-image{
+    width: 100%;
+}
+.banner-image img{
+    width: 100%;
+}
+
+.banner-button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo h2 {
+    font-size: 77px;
+    text-align: center;
+}
+
+nav .menu {
+    gap: 25px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banner .banner-content h2 {
+    margin-top: 33px;
+    text-align: center;
+}
+
+#banner .banner-content h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#banner .banner-content p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+/* skill section */
+#skills, #resume {
+    padding-top: 30px;
+}
+
+.skills-container {
+    width: 95%;
+}
+
+.section-heading p {
+    font-size: 15px;
+}
+
+.skill-box {
+    flex-direction: column;
+}
+
+.skill-box .skill-card {
+    max-width: 100%;
+}
+
+/* about section */
+
+#about .about-container {
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 0;
+}
+
+#about .about-container .about-info {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-heading h2 {
+    margin-top: 50px;
+}
+
+/* footer section */
+footer {
+    margin-top: 30px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+footer .footer-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container h2 {
+  width: 95%;
+}
+
+.footer-container form input[type="text"] {
+    width: 95%;
+}
+
+.footer-container form textarea {
+    width: 95%;
+}
+
+.icons a {
+    margin-right: -6px;
+    margin-left: 59px;
+    }
+
+
+/* resume section */
+
+.resume-container {
+    width: 95%;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
